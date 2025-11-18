@@ -14,3 +14,11 @@
 .font-size-header {
     font-size: 5rem;
 }
+
+.font-header {
+    font-family: "Edu TAS Beginner", cursive;
+}
+
+.font-sometype-mono {
+    font-family: "Sometype Mono", monospace;
+}
