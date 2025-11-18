@@ -1,0 +1,16 @@
+.bg-image-header {
+    background-image: url("../img/wall.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-image-body {
+    background-image: url("../img/cork.png");
+
+    background-position: center;
+}
+
+.font-size-header {
+    font-size: 5rem;
+}
