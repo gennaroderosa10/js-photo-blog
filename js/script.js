@@ -29,7 +29,6 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/").then((resp) => {
     cardContainer.innerHTML = cardString;
 
     const card = document.querySelectorAll(".card");
-    console.log(card);
     const overlay = document.getElementById("overlay-elem");
 
     card.forEach(card => {
@@ -39,7 +38,13 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/").then((resp) => {
         });
     });
 
+    const button = document.getElementById("button-close");
 
+    button.addEventListener("click", function () {
+        overlay.classList.add("d-none");
+    });
 
 });
+
+
 
