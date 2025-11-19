@@ -32,9 +32,14 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/").then((resp) => {
     console.log(card);
     const overlay = document.getElementById("overlay-elem");
 
-    card.addEventlistener("click", function () {
-        overlay.classList.remove("d-none");
+    card.forEach(card => {
+
+        card.addEventListener("click", function () {
+            overlay.classList.remove("d-none");
+        });
     });
+
+
 
 });
 
