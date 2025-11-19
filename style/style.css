@@ -25,6 +25,8 @@
 
 .card-rotate:hover {
     transform: rotate(30deg) scale(1.1);
+    position: relative;
+    z-index: 99;
 
 }
 
